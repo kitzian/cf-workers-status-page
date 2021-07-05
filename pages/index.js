@@ -92,7 +92,6 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
             <a href="https://foxomy.com/" target="_blank">
               Foxomy
             </a>
-            </a>
           </div>
         </div>
       </div>
