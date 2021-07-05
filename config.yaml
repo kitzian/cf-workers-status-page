@@ -30,9 +30,15 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-comtest
-    name: The Cloudflare Blogtest
-    url: 'https://blog.cloudflare.com/'
-    method: PING
+  - id: mail-web-hook
+    name: Mail webhook
+    url: 'http://cpanel.furweb.com:45101/'
+    method: GET
+    expectStatus: 200
+    
+  - id: dfw1
+    name: dfw1
+    url: 'http://panel.foxomy.com/'
+    method: GET
     expectStatus: 200
     
