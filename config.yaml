@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Status Page (Under construction)'
   url: 'https://status.foxomy.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -30,8 +30,8 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
+  - id: blog-cloudflare-comtest
+    name: The Cloudflare Blogtest
     url: 'https://blog.cloudflare.com/'
     method: PING
     expectStatus: 200
@@ -42,3 +42,9 @@ monitors:
     method: PING
     expectStatus: 200
 
+- id: blog-cloudflare-comtest3
+    name: The Cloudflare Blogtest3
+    url: 'https://blog.cloudflare.com/'
+    method: PING
+    expectStatus: 200
+    
