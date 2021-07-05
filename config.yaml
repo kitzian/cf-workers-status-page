@@ -35,3 +35,10 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: PING
     expectStatus: 200
+    
+  - id: test
+    name: test1s
+    url: '199.26.86.175'
+    method: PING
+    expectStatus: 200
+
