@@ -90,13 +90,9 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         })}
         <div className="flex flex-row justify-center mt-4 text-sm">
           <div>
-            Powered by{' '}
-            <a href="https://workers.cloudflare.com/" target="_blank">
-              Cloudflare Workers{' '}
+            <a href="https://foxomy.com/" target="_blank">
+              Foxomy ©
             </a>
-            &{' '}
-            <a href="https://flareact.com/" target="_blank">
-              Flareact{' '}
             </a>
           </div>
         </div>
