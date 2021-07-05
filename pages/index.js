@@ -90,7 +90,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         <div className="flex flex-row justify-center mt-4 text-sm">
           <div>
             <a href="https://foxomy.com/" target="_blank">
-              Foxomy ©
+              Foxomy
             </a>
             </a>
           </div>
