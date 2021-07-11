@@ -42,3 +42,8 @@ monitors:
     method: GET
     expectStatus: 200
     
+  - id: lol
+    name: lol
+    url: 'http://studenthub.uno/'
+    method: GET
+    expectStatus: 200
